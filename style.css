@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(0, 160, 160);
+    text-align: left;
+    
+}
+
+
+h1 , h2 {
+
+border: 1px solid black;
+padding: 5px; 
+   width: 30%;
+   text-align: center;
+   
+}
+
+img {
+    border-radius: 20px;
+
+}
+
+
+
+@media only screen and  (max-width: 700px  ) {
+.principale{
+display: flexbox;
+
+}    
+
+}
+
+
+@media only screen and  (max-width: 800px  ) {
+    h1 , h2 {
+ display: flexbox;
+    flex-wrap: nowrap;
+    font-size: small;
+    }    
+
+}
+
+@media only screen and  (max-width: 450px  ) {
+    h1 , h2 {
+        border: 0;
+        text-align: center;
+    }
+}
